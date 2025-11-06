@@ -17,7 +17,7 @@ export default function Footer() {
   const [loading, setLoading] = useState(false);
 
   const socialLinks = [
-    { icon: FaInstagram, url: "https://www.instagram.com/madhavi_ghanshyam_fitcoach?igsh=MTB1YWp1dHo4M3A3Mw==&utm_source=ig_contact_invite" },
+    { icon: FaInstagram, url: "https://www.instagram.com/madhavi_ghanshyam_fitcoach?igsh=MXc5b2p3ZmNvNDdyNg==" },
     // { icon: LuFacebook, url: "https://www.facebook.com/profile.php?id=61558809396085" },
   ];
 

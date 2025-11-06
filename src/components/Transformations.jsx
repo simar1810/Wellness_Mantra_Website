@@ -4,14 +4,26 @@ import React, { useState, useEffect } from "react";
 
 const Transformations = () => {
   const transformations = [
-    { id: 1, before: "/transformations/before1.png", after: "/transformations/after1.png" },
-    { id: 2, before: "/transformations/before2.png", after: "/transformations/after2.png" },
-    { id: 3, before: "/transformations/before3.png", after: "/transformations/after3.png" },
-    { id: 4, before: "/transformations/before4.png", after: "/transformations/after4.png" },
-    { id: 5, before: "/transformations/before5.png", after: "/transformations/after5.png" },
-    { id: 6, before: "/transformations/before6.png", after: "/transformations/after6.png" },
-    { id: 7, before: "/transformations/before7.png", after: "/transformations/after7.png" },
-    { id: 8, before: "/transformations/before8.png", after: "/transformations/after8.png" },
+    { id: 1, before: "/client-assets/t1.jpg" },
+    { id: 2, before: "/client-assets/t2.jpg" },
+    { id: 3, before: "/client-assets/t3.jpg" },
+    { id: 4, before: "/client-assets/t4.jpg" },
+    { id: 5, before: "/client-assets/t5.jpg" },
+    { id: 6, before: "/client-assets/t6.jpg" },
+    { id: 8, before: "/client-assets/t8.jpg" },
+    { id: 9, before: "/client-assets/t9.jpg" },
+    { id: 10, before: "/client-assets/t10.jpg" },
+    { id: 11, before: "/client-assets/t11.jpg" },
+    { id: 12, before: "/client-assets/t12.jpg" },
+    { id: 13, before: "/client-assets/t13.jpg" },
+    { id: 14, before: "/client-assets/t14.jpg" },
+    { id: 15, before: "/client-assets/t15.jpg" },
+    { id: 16, before: "/client-assets/t16.jpg" },
+    { id: 17, before: "/client-assets/t17.jpg" },
+    { id: 18, before: "/client-assets/t18.jpg" },
+    { id: 19, before: "/client-assets/t19.jpg" },
+    { id: 20, before: "/client-assets/t20.jpg" },
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,23 +87,12 @@ const Transformations = () => {
                     alt="before"
                     width={500}
                     height={500}
-                    className="w-1/2 h-80 sm:h-72 md:h-[400px] object-cover"
+                    className="w-full h-80 sm:h-72 md:h-[400px] object-cover"
                   />
-                  <Image
-                    src={t.after}
-                    alt="after"
-                    width={500}
-                    height={500}
-                    className="w-1/2 h-80 sm:h-72 md:h-[400px] object-cover"
-                  />
-
-                 
                   <div className="absolute rounded-full bg-[#BBD63C] px-6 sm:px-8 md:px-10 py-2 sm:py-3 left-1/2 -translate-x-1/2 bottom-3 sm:bottom-4 text-black flex items-center justify-between gap-3 sm:gap-5 md:gap-8 text-xs sm:text-sm md:text-base">
-                    <p className="font-medium">Before</p>
                     <div className="bg-white text-black px-2 py-1 rounded-lg">
                       <p className="text-[10px] sm:text-xs">Transformation</p>
                     </div>
-                    <p className="font-medium">After</p>
                   </div>
                 </div>
               ))}

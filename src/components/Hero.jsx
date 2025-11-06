@@ -17,7 +17,7 @@ const Hero = () => {
                 alt="Wellness Logo"
                 width={250}
                 height={250}
-                className="w-36 sm:w-64 md:w-[30vw] lg:w-[8rem] lg:absolute lg:left-[-20px] lg:top-[-30px] xl:left-[-10px] xl:top-[-50px] xl:w-[10vw] 2xl:top-[-80px]"
+                className="w-36 sm:w-64 md:w-[30vw] lg:w-[8rem] lg:absolute lg:left-[-20px] lg:top-[-40px] xl:left-[-10px] xl:top-[-60px] xl:w-[10vw] 2xl:top-[-90px] 3xl:top-[-30px]"
               />
             </div>
 
