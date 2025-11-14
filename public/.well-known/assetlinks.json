@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wellnessz.mantra",
+      "sha256_cert_fingerprints": [
+        "76:37:A7:F8:3A:56:C6:6E:8B:ED:18:C6:D0:18:22:A7:66:5E:BA:B6:8A:9F:0E:A0:67:A9:7E:B4:D6:F2:B2:38"
+      ]
+    }
+  }
+]
